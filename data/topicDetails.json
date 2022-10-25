@@ -57,15 +57,59 @@
     "details": "This course introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of 6.034, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective."
   },
   {
-    "_id": "63573377c745783ec5ec5ffd"
+    "_id": "63573377c745783ec5ec5ffd",
+    "category_id": "05",
+    "rating": { "number": 4.7, "badge": "Excellent" },
+    "student_capacity": 150,
+    "title": "Essential Coding Theory",
+    "instructor": {
+      "name": "Prof. Madhu Sudan",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "https://www.pushpanjalihospital.in/wp-content/uploads/2021/12/Dr-Madhu-Sudan-Agrawal.jpg"
+    },
+    "image_url": "https://img.freepik.com/premium-photo/science-blue-glass-tube-experimentflask-scientist-hand-with-test-tubeslaboratory-glassware_387864-9614.jpg?w=740",
+    "details": "This course introduces the theory of error-correcting codes to computer scientists. This theory, dating back to the works of Shannon and Hamming from the late 40’s, overflows with theorems, techniques, and notions of interest to theoretical computer scientists. The course will focus on results of asymptotic and algorithmic significance. Principal topics include:1.Construction and existence results for error-correcting codes.2.Limitations on the combinatorial performance of error-correcting codes.3.Decoding algorithms.4.Applications in computer science."
   },
   {
-    "_id": "6357337789bd5428efa63a3a"
+    "_id": "6357337789bd5428efa63a3a",
+    "category_id": "06",
+    "rating": { "number": 4.8, "badge": "Excellent" },
+    "student_capacity": 100,
+    "title": "Design and Analysis of algorithms",
+    "instructor": {
+      "name": "Patrick Henry Winston",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "https://web.mit.edu/fnl/volume/321/images/phw_TN.jpg"
+    },
+    "image_url": "https://img.freepik.com/free-vector/data-concept-illustration-idea-collecting-analysing-using_613284-1574.jpg?w=900&t=st=1666689225~exp=1666689825~hmac=13976486244d91a3e19b1ad60e1fb465404bbc274738028c2c496d497d0cfedd",
+    "details": "This course introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of 6.034, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective."
   },
   {
-    "_id": "635733771c70d24da93fa62e"
+    "_id": "635733771c70d24da93fa62e",
+    "category_id": "07",
+    "rating": { "number": 4.8, "badge": "Excellent" },
+    "student_capacity": 70,
+    "title": "Design and Analysis of algorithms",
+    "instructor": {
+      "name": "Prof. Silvio Micali",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "https://www.amacad.org/sites/default/files/styles/headshot_1x/public/images/headshots/headshot_4321.jpg?h=eaef61fb&itok=chLdm9Qg"
+    },
+    "image_url": "https://img.freepik.com/free-vector/block-chain-concept-background_23-2147868889.jpg?w=740&t=st=1666689431~exp=1666690031~hmac=9c93e17eafe9779827aec620adb99a4548c8dca38ac9b81e85eefe8aefe36d1c",
+    "details": "The topics covered in this course include interactive proofs, zero-knowledge proofs, zero-knowledge proofs of knowledge, non-interactive zero-knowledge proofs, secure protocols, two-party secure computation, multiparty secure computation, and chosen-ciphertext security."
   },
   {
-    "_id": "625747771y71d27da03da42e"
+    "_id": "625747771y71d27da03da42e",
+    "category_id": "08",
+    "rating": { "number": 4.8, "badge": "Excellent" },
+    "student_capacity": 200,
+    "title": "Introduction to Cybersecurity",
+    "instructor": {
+      "name": "Humayun Zafar, Ph.D.",
+      "department": "Information Security and Assurance Information Systems",
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/3e/75a6f070ef11e48de0cfaa9f335840/headshot1.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200"
+    },
+    "image_url": "https://img.freepik.com/free-vector/isometric-cyber-security-flowchart-composition-electronic-devices-pictograms_1284-29928.jpg?w=740&t=st=1666689968~exp=1666690568~hmac=62e4fe218ffef948e295d8e451200423ecd66fd2fce0ba394c5c984faa119d9c",
+    "details": "This course is designed to introduce students, working professionals and the community to the exciting field of cybersecurity. Throughout the MOOC, participants will engage in community discourse and online interaction. Participants will gain knowledge and understanding of cybersecurity and its domains. They will engage with expertly produced videos, gain insight from industry experts, participate in knowledge assessments, practice assessing their environmental awareness, and gain access to materials that address governance and risk management, compliance, business continuity and disaster recovery, cryptography, software development security, access control, network security, security architecture, security operations, and physical and environmental security. Learning will be assessed using strategies aligned to knowledge and understanding.This course is eligible to be evaluated for Kennesaw State University course credit."
   }
 ]

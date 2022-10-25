@@ -1,0 +1,34 @@
+[
+  {
+    "id": "01",
+    "name": "ADVENTURES IN ADVANCED SYMBOLIC PROGRAMMING"
+  },
+  {
+    "id": "02",
+    "name": "Introduction to Algorithms"
+  },
+  {
+    "id": "03",
+    "name": "Program Analysis"
+  },
+  {
+    "id": "04",
+    "name": "Computer Language Engineering"
+  },
+  {
+    "id": "05",
+    "name": "Essential Coding Theory"
+  },
+  {
+    "id": "06",
+    "name": "Design and Analysis of Algorithms"
+  },
+  {
+    "id": "07",
+    "name": "Advanced Topics in Cryptography"
+  },
+  {
+    "id": "08",
+    "name": "Introduction to Cybersecurity"
+  }
+]

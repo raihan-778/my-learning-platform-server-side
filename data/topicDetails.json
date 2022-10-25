@@ -1,0 +1,71 @@
+[
+  {
+    "_id": "63573377f52444601a0e21d9",
+
+    "category_id": "01",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "student_capacity": 150,
+    "title": "ADVENTURES IN ADVANCED SYMBOLIC PROGRAMMING",
+    "instructor": {
+      "name": "Prof. Gerald Sussman",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "https://www.csail.mit.edu/sites/default/files/styles/headshot/public/images/people/profile/Gerald%20Sussman.jpg?h=672a6d71&itok=BrGf0GcQ"
+    },
+    "image_url": "https://content.wolfram.com/uploads/sites/39/2021/02/2007-06-15-symbolic-programming-computationally-active-language.png",
+    "details": "This course covers concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Substantial weekly programming assignments are an integral part of the subject.There will be extensive programming assignments, using MIT/GNU Scheme. Students should have significant programming experience in Scheme, Common Lisp, Haskell, CAML or some other (functional) language."
+  },
+  {
+    "_id": "6357337741f78242b2246240",
+    "category_id": "02",
+    "rating": { "number": 4.7, "badge": "Excellent" },
+    "student_capacity": 100,
+    "title": "Introduction to Algorithms",
+    "instructor": {
+      "name": "Prof. Erik Demaine Prof. Srini Devadas",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "http://erikdemaine.org/classes/6.849_square.jpg"
+    },
+    "image_url": "https://img.freepik.com/free-vector/digital-binary-code-numbers-background_1017-30371.jpg?w=740&t=st=1666662851~exp=1666663451~hmac=d60562c81f737ba0d90d86b5229f5404346546b23fd4d9bd5c96d04b8f75832b",
+    "details": "This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems."
+  },
+  {
+    "_id": "63573377c55ebbcbd6747ae8",
+    "category_id": "03",
+    "rating": { "number": 4.8, "badge": "Excellent" },
+    "student_capacity": 120,
+    "title": "Program Analysis",
+    "instructor": {
+      "name": "Prof. Michael Ernst",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "https://www.plus.ac.at/wp-content/uploads/2021/02/491554.jpg"
+    },
+    "image_url": "https://img.freepik.com/free-vector/functional-testing-banner-methodology-programming_107791-3013.jpg?w=900&t=st=1666662320~exp=1666662920~hmac=baa24756812bb3d303187e59350946dd51993cc51d5cf5c4a0a8e6567d65bb69",
+    "details": "6.883 is a graduate seminar that investigates a variety of program analysis techniques that address software engineering tasks. Static analysis topics include abstract interpretation (dataflow), type systems, model checking, decision procedures (SAT, BDDs), theorem-proving. Dynamic analysis topics include testing, fault isolation (debugging), model inference, and visualization. While the course focuses on the design and implementation of programming tools, the material will be useful to anyone who wishes to improve his or her programming or understand the state of the art. Students are expected to read classic and current technical papers, actively participate in class discussion, perform small exercises that provide experience with a variety of tools, and complete a team research project."
+  },
+  {
+    "_id": "635733779c7f6e68f811d024",
+    "category_id": "04",
+    "rating": { "number": 4.6, "badge": "Excellent" },
+    "student_capacity": 80,
+    "title": "Computer Language Engineering",
+    "instructor": {
+      "name": "Patrick Henry Winston",
+      "department": "Electrical Engineering and Computer Science",
+      "img": "https://web.mit.edu/fnl/volume/321/images/phw_TN.jpg"
+    },
+    "image_url": "https://img.freepik.com/free-photo/computer-program-code_1385-530.jpg?w=740&t=st=1666663563~exp=1666664163~hmac=8d23d77f0a325265c562c9a013d80c0ded95b437c96665311e68d18d01846837",
+    "details": "This course introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of 6.034, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective."
+  },
+  {
+    "_id": "63573377c745783ec5ec5ffd"
+  },
+  {
+    "_id": "6357337789bd5428efa63a3a"
+  },
+  {
+    "_id": "635733771c70d24da93fa62e"
+  },
+  {
+    "_id": "625747771y71d27da03da42e"
+  }
+]

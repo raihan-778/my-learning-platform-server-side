@@ -2,6 +2,9 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
+//its its used to get cross origin access
+app.use(cors());
+
 const port = process.env.PORT || 5000;
 
 app.listen(port, () =>
@@ -15,22 +18,27 @@ const topicInfo = require("./data/topicDetails.json");
 app.get("/topics-category", (req, res) => {
   res.send({ topics });
 });
-//its its used to get cross origin access
-app.use(cors());
 
 //api for single topic
 app.get("/topics-category/:id", (req, res) => {
   const id = req.params.id;
   const topicDetails = topicInfo.filter(
-    (singleTopic) => singleTopic.category_id === id
+    (singleTopic) => singleTopic.category_id == id
   );
   res.send(topicDetails);
 });
 
 //api for all topics topicDetails
 
-app.get("/allTopics", (req, res) => {
+app.get("/all-topics", (req, res) => {
   res.send({ topicInfo });
+});
+//api for selected topic by id
+app.get("/all-topics/:id", (req, res) => {
+  const id = req.params.id;
+  const selectedTopic = topicInfo.find((topic) => topic.id === id);
+  console.log(selectedTopic);
+  res.send(selectedTopic);
 });
 
 // create a GET route

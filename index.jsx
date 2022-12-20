@@ -3,9 +3,16 @@ const app = express();
 const cors = require("cors");
 
 //its its used to get cross origin access
+app.use(express.json());
 app.use(cors());
 
 const port = process.env.PORT || 5000;
+
+// create a GET route
+app.get("/", (req, res) => {
+  //Line 9
+  res.send({ express: "Your Web and cyber-security backend is running" }); //Line 10
+}); //Line 11
 
 app.listen(port, () =>
   console.log(`web & cyber-security el is running on Port ${port}`)
@@ -40,9 +47,3 @@ app.get("/all-topics/:id", (req, res) => {
   console.log(selectedTopic);
   res.send(selectedTopic);
 });
-
-// create a GET route
-app.get("/express_backend", (req, res) => {
-  //Line 9
-  res.send({ express: "Your Web and cyber-security backend is running" }); //Line 10
-}); //Line 11
